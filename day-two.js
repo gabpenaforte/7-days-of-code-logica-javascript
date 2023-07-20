@@ -7,7 +7,7 @@ const msg = `Olá ${nome}, você tem ${idade} anos e já está aprendendo ${ling
 
 console.log(msg);
 
-const pergunta = prompt(`Você gosta de estudar ${linguagem}?`) 
+const pergunta = prompt(`Você gosta de estudar ${linguagem}? Responda com o número 1 - SIM ou 2 - NÃO`) 
 
 if (pergunta == 1){
     console.log("Muito bom! Continue estudando e você terá muito sucesso.")
